@@ -1,5 +1,5 @@
-# DSAN 6600 Deep Learning Final Project:
-# Voice-to-Text with Spelling and Grammar Correction
+# DSAN 6600 Deep Learning Final Project
+## Voice-to-Text with Spelling and Grammar Correction
 
 Final Project for DSAN 6600: Neural Networks and Deep Learning
 
