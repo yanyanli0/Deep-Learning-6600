@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Audio Transcription and Correction</title>
+    <link rel="stylesheet" type="text/css" href="../static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Voice-to-Text with Spelling and Grammar Correction</h1>
+        <h2>DSAN 6600 Final Project - Group 9</h2>
+        <h3>Yanyan Li, Hongxin Wu, Xinran Zhang</h3>
+        
+        <!-- Record Button -->
+        <button id="recordButton" onclick="record()">Record</button>
+        
+        <!-- Play Button -->
+        <button id="playButton" onclick="play()">Play</button>
+
+        <audio id="recordedAudio"></audio>
+
+        <!-- Countdown Timer -->
+        <div id="countdown"></div>
+
+        <!-- Buttons for displaying results -->
+        <button id="transcribeButton" onclick="transcribe()">Transcribe</button>
+        <button id="correctTextButton" onclick="correctText()">Correct Text</button>
+
+        <!-- Textareas for displaying results -->
+        <textarea id="transcription" placeholder="Transcription will appear here..."></textarea>
+        <textarea id="corrected_text" placeholder="Corrected text will appear here..."></textarea>
+        <!-- ... [existing HTML content] ... -->
+
+    </div>
+
+    <!-- Link to your JavaScript file in the static folder -->
+    <script src="../static/script.js"></script>
+</body>
+</html>

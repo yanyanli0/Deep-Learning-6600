@@ -1,0 +1,72 @@
+body {
+    background-color: #e0f7fa; /* Light blue background */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    width: 100%;
+}
+
+h1 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #555;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+h3 {
+    color: #777;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+button#recordButton, button#playButton, button#transcribeButton, button#correctTextButton {
+    background-color: #29b6f6;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button#recordButton:hover, button#playButton:hover, button#transcribeButton:hover, button#correctTextButton:hover {
+    background-color: #0086c3;
+}
+
+#countdown {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    resize: vertical;
+    font-size: 16px;
+    height: 150px;
+}
+
+textarea::placeholder {
+    color: #aaa;
+}
