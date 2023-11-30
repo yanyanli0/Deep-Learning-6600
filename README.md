@@ -14,3 +14,8 @@ Pretrain Models:
 | facebook/wav2vec2-base-960h | https://huggingface.co/facebook/wav2vec2-base-960h| Wav2Vec2 |
 | oliverguhr/spelling-correction-english-base | https://huggingface.co/oliverguhr/spelling-correction-english-base | Text2Text Generation |
 | vennify/t5-base-grammar-correction | https://huggingface.co/vennify/t5-base-grammar-correction | Text2Text Generation |
+
+App UI:
+| Name | Link |
+|------|------|
+| Flask for Python | https://flask.palletsprojects.com/en/3.0.x/ |
