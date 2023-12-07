@@ -3082,7 +3082,7 @@ return!"\t\n\x0B\f\r                　\u2028\u2029
    
   <ul>
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
-  <li><a href="#data-preparation" id="toc-data-preparation" class="nav-link" data-scroll-target="#data-preparation">Data preparation</a></li>
+  <li><a href="#data-preparation" id="toc-data-preparation" class="nav-link" data-scroll-target="#data-preparation">Data Preparation</a></li>
   <li><a href="#modeling" id="toc-modeling" class="nav-link" data-scroll-target="#modeling">Modeling</a></li>
   <li><a href="#tuning-and-results" id="toc-tuning-and-results" class="nav-link" data-scroll-target="#tuning-and-results">Tuning and Results</a>
   <ul class="collapse">
@@ -3136,7 +3136,7 @@ return!"\t\n\x0B\f\r                　\u2028\u2029
 <p>Through this project, we have extended the boundaries of traditional voice-to-text transcription and correction by introducing a tool that is not only theoretically sound but also immensely practical. It is designed to improve the learning experience for students worldwide, enhancing their ability to understand and communicate across a variety of dialects and linguistic challenges in educational settings.</p>
 </section>
 <section id="data-preparation" class="level1">
-<h1>Data preparation</h1>
+<h1>Data Preparation</h1>
 <p>To prepare our model for training, we first needed to gather a large amount of data, containing both auditory and textual elements. Our strategy involved looking for public speeches from online platforms such as YouTube and various educational websites. This approach allowed us to obtain both the spoken version of these speeches as well as their corresponding written transcripts.</p>
 <p>Once we had collected these resources, the next step was to integrate the audio files with their text counterparts to construct a unified training dataset. An important part of this process involved cleaning and standardizing the text data. We aimed to remove any extraneous formatting that might interfere with the model’s learning process. Then, we created functions to generate spelling and grammar issues and inserted them into the text. Therefore, we have both the spelling and grammar-corrected text and the spelling and grammar-uncorrected text.</p>
 <p>Finally, we had the transcript downloaded from the Ted Talk into a structured dataframe. This dataframe along with the refined text data and the spelling and grammar-uncorrected text, formed the foundation of our dataset, which provided us with the necessary materials for training our model.</p>
